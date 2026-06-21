@@ -178,7 +178,7 @@ div#commentBox > b, div#commentBox > strong {
 
 
 div#commentBox::before {
-content: “Write something in the sand…" !important; 
+content: "Write something in the sand?" !important; 
 position: absolute !important;
 top: 8px !important;
 left: 0px !important;
