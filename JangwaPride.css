@@ -214,19 +214,18 @@ background: linear-gradient(180deg, #6b3898 0%, #452461 100%) !important;
 .text-muted { 
 color: #d98447 !important; 
 }
-
 button, input[type="submit"], .btn-primary {
-background: linear-gradient(180deg, #6b3898 0%, #452461 100%) !important;
-color: #FFF9E6 !important;
+background: linear-gradient(180deg, #532b75 0%, #452461 100%) !important;
+color: #c9acff !important;
 border: 1px solid #230733 !important;
 border-radius: 6px !important;
 }
-
-
 table#player.table hr {
-display: none !important; }
+display: none !important; 
+}
 table#player.table div.xlarge { 
-margin-top: 10px !important; }
+margin-top: 10px !important; 
+}
  
 .panel {
 background: linear-gradient(180deg, #512a6f 0%, #e4a574 100%) !important;
