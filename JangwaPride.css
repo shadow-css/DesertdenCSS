@@ -195,7 +195,11 @@ text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9) !important;
 display: block !important;
 }
 
-
+div#commentBox {
+background: linear-gradient(90deg, #7d41b1 0%, #452461 100%) !important;
+border: none !important;
+border-radius: 9px !important;
+}
 .comment {     
 background: linear-gradient(180deg, #7d41b1 0%, #532b75 100%) !important;
 border: none !important;
@@ -204,14 +208,12 @@ border-radius: 0px !important;
 color: #c9acff !important;
 text-align: left !important;
 }
-
 .comment:nth-child(even) {     
 background: linear-gradient(180deg, #6b3898 0%, #452461 100%) !important;
 }
-
-
 .text-muted { 
-color: #d98447 !important; }
+color: #d98447 !important; 
+}
 
 button, input[type="submit"], .btn-primary {
 background: linear-gradient(180deg, #6b3898 0%, #452461 100%) !important;
