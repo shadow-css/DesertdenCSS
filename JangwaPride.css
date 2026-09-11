@@ -462,10 +462,6 @@ img[src$="icon_den_friend.png"] {
 content: url('https://i.postimg.cc/kMk3RV8t/image.png') !important;
 width: 28px !important; }
 
-img[src$="donator.png"] {
-content: url('https://i.postimg.cc/kMk3RV8t/image.png') !important;
-width: 28px !important; }
-
    
 div#lion_image {
 opacity: 1.0;
