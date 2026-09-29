@@ -504,22 +504,10 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
     padding-left: 95px !important;
 }
 
-
- 
-/* TEXT BOXES & BUTTONS */
- 
-input, textarea, select, button.button,
-a.btn.btn-default.button {
-background: linear-gradient(180deg, #5c2463 0%, #681818 100%) !important;
-border: none !important;
-border-radius: 4px !important;
-color: #FFF9E6 !important;
-text-shadow: none !important;
-}
-
+/* Pagedoll - Switching between Halloween Kgozi and- probably some other art maybe Pine maybe mine */
 .container.main::after {
 content: "" !important;
-background-image: url('https://ibb.co/svhNRwyn') !important;
+background-image: url('https://i.ibb.co/ccPZ3FD0/Shadow1.png') !important;
 background-size: contain !important;
 background-repeat: no-repeat !important;
 position: fixed !important;
@@ -540,10 +528,12 @@ right: 5px !important;
 bottom: 5px !important;
 }
 }
+
+/* TEXT BOXES & BUTTONS */
  
 input, textarea, select, button.button,
 a.btn.btn-default.button {
-background: linear-gradient(90deg, #1d5048 0%, #2d7b6f 100%) !important;
+background: linear-gradient(180deg, #5c2463 0%, #681818 100%) !important;
 border: none !important;
 border-radius: 4px !important;
 color: #FFF9E6 !important;
