@@ -517,6 +517,39 @@ color: #FFF9E6 !important;
 text-shadow: none !important;
 }
 
+.container.main::after {
+content: "" !important;
+background-image: url('https://ibb.co/svhNRwyn') !important;
+background-size: contain !important;
+background-repeat: no-repeat !important;
+position: fixed !important;
+display: block !important;
+width: 250px !important;
+height: 250px !important;
+right: 20px !important;
+bottom: 10px !important;
+z-index: 100 !important;
+pointer-events: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+.container.main::after {
+width: 180px !important;
+height: 180px !important;
+right: 5px !important;
+bottom: 5px !important;
+}
+}
+ 
+input, textarea, select, button.button,
+a.btn.btn-default.button {
+background: linear-gradient(90deg, #1d5048 0%, #2d7b6f 100%) !important;
+border: none !important;
+border-radius: 4px !important;
+color: #FFF9E6 !important;
+text-shadow: none !important;
+}
+
 /* FIXED THE STUPID ENERGY BAR! */
 form:has(input[name="freeEnergyBoost"]) {
 display: block !important;
