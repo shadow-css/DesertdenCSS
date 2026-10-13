@@ -279,17 +279,22 @@ border: none !important;
 color: #f3b483 !important;
 font-size: 12px !important;
 }
-
+/* channel tabs */
 button#label_currentChannel {	
 border: 0px ridge !important;
 color: #FFF9E6 !important;
 font-size: 14px !important;
 background: #230733 !important;
 }
-
 div#lblCharacterCounter {
 color: #e67837 !important; 
 }
+/* chat buttons - transparency added to clear the boxes */
+#btnChatSettings, #btnLoadNewMessages, .s-chat-message_menu {
+background: transparent !important;
+filter: grayscale() brightness(400%) !important;
+}
+
 
 
  
