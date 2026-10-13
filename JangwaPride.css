@@ -71,6 +71,11 @@ img[src*="beetle"], img[src*="gb.png"], img[src*="sb.png"] {
     filter: drop-shadow(0px 0px 4px #ffd700) !important;
     transition: transform 0.2s ease !important;
 }
+
+.mound-grid img {
+ filter: drop-shadow(0px 0px 5px #af49e7) !important;
+ transition: transform 0.2s ease !important;
+}
    
 .container.main {
 background: rgba(48, 21, 21, .8);
