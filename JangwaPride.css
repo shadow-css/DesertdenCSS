@@ -255,7 +255,6 @@ content: url('https://i.postimg.cc/kMk3RV8t/image.png') !important;
 width: 24px !important; }
 
 /* CHAT (This was SO difficult sobs cuz all templates were outdated) */
-
 div#chatMessageContainer {
 border: 0px ridge;
 }
@@ -289,7 +288,10 @@ background: #230733 !important;
 }
 
 div#lblCharacterCounter {
-color: #e67837 !important; }
+color: #e67837 !important; 
+}
+
+
  
 .feature {
 background: linear-gradient(180deg, #5c2463 0%, #e4a574 100%) !important;
