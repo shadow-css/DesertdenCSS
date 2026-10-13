@@ -1,14 +1,3 @@
-/* ======================== Parts of this CSS Template have been adapted from the following users below, but I have changed the code quite a bit since theirs was outdated in certain parts!!! ========================  
-
-DO NOT. REMOVE THE CREDIT.
-
-Majority of edits and tweaks have been made by Shadow #591622, This has become a template that has a slightly different style to Katie and Jester, thus it’s under my Lioden Tag and not theirs! I’m not going to mark what I changed/edited. But it was a lot considering the old formats were OUTDATED and codes that they added no longer work.
-
-ORIGINAL Template made by katie (#106445) and jester (#187561), please check their Template for the full list of users as there are many. */
-
-
-
-
 body {font-family: Verdana;}
  
 .topbar {font-family: Verdana;}
@@ -184,7 +173,7 @@ top: 8px !important;
 left: 0px !important;
 width: 100% !important;
 
-font-family: 'Great Vibes', cursive !important; 
+font-family: Cinzel; serif !important; 
 font-size: 18px !important;          
 font-weight: normal !important;      
 letter-spacing: 0.5px !important;
@@ -228,11 +217,11 @@ margin-top: 10px !important;
 }
  
 .panel {
-background: linear-gradient(180deg, #512a6f 0%, #e4a574 100%) !important;
-color: #HEX !important;
-border: none !important;
-border-radius: 0px !important;
-box-shadow: none !important;  }
+background:  url("https://images.unsplash.com/photo-1668685678947-5a697da11665?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center center / cover no-repeat !important;
+color: #b45eff !important;
+border: #ef9c76 4px ridge !important;
+border-radius: 12px !important;
+box-shadow: 0px 0px 5px 3px #9c2bff !important;  }
 
 .progress-bar {
 background: linear-gradient(180deg, #C676FF 0%, #821196  100%) !important;
@@ -262,111 +251,40 @@ width: 24px !important; }
 
 /* CHAT (This was SO difficult sobs cuz all templates were outdated) */
 
-#fraSidebarChat {
-background: #180424 !important;
-border: 1px solid #230733 !important;
-border-radius: 9px !important;
-overflow: visible !important;
+div#chatMessageContainer {
+border: 0px ridge;
 }
-#fraSidebarChat h3,
-#fraSidebarChat h3 a {
-color: #981be4 !important;
-font-family: Arial, Helvetica, sans-serif !important;
-font-weight: bold !important;
-}
-#fraSidebarChat iframe {
-background: #180424 !important;
-border: none !important;
-}
-#fraSidebarChat select {
-background: #FFF9E6 !important;
-color: #180424 !important;
-border: 1px solid #230733 !important;
-border-radius: 4px !important;
-}
-#fraSidebarChat button,
-#fraSidebarChat .btn,
-#btnChatSettings,
-#btnLoadNewMessages,
-.s-chat-message_menu {
-background: #230733 !important;
-color: #FFF9E6 !important;
-border: none !important;
-border-radius: 4px !important;
-}
-#chatMessageList .s-chat-message:nth-child(odd),
-.s-chat-message:nth-child(odd) {
-background: linear-gradient(180deg, #6c2a75 0%, #f3b483 100%) !important;
-color: #ffffff !important;
-border: 1px solid #230733 !important;
-}
-#chatMessageList .s-chat-message:nth-child(even),
 .s-chat-message:nth-child(even) {
 background: linear-gradient(180deg, #44174a 0%, #c48656 100%) !important;
 color: #ffffff !important;
-border: 1px solid #230733 !important;
+font-size: 14px !important;
+border: none !important;
 }
-#chatMessageList {
-background: #180424 !important;
+.s-chat-message:nth-child(odd) {
+background: linear-gradient(180deg, #6c2a75 0%, #f3b483 100%) !important;
+color: #ffffff !important;
+font-size: 14px !important;
+border: none !important;
 }
-#btnChatSettings::before {
-content: "⚙" !important;
+.s-chat-message__pinned {
+background:linear-gradient(180deg, #41126a 0%, #b45117 100%)!important;
+color: #180424 !important;
+border: none !important;
+}
+.s-chat-message_timestamp {
+color: #f3b483 !important;
+font-size: 12px !important;
+}
+
+button#label_currentChannel {	
+border: 0px ridge !important;
 color: #FFF9E6 !important;
-font-size: 16px !important;
-width: 17px !important;
-height: 16px !important;
-line-height: 16px !important;
-display: inline-block !important;
-transform: none !important;
-}
-#btnLoadNewMessages::before {
-content: "⟳" !important;
-color: #FFF9E6 !important;
-font-size: 16px !important;
-width: 17px !important;
-height: 16px !important;
-line-height: 16px !important;
-margin-top: 4px !important;
-margin-left: -3px !important;
-display: inline-block !important;
-transform: none !important;
-}
-.s-chat-message_menu::before {
-content: "•••" !important;
-color: #FFF9E6 !important;
-font-family: Arial, sans-serif !important;
-font-size: 9px !important;
-letter-spacing: 0.5px !important;
-width: 18px !important;
-height: 7px !important;
-line-height: 9px !important;
-display: inline-block !important;
-transform: none !important;
-}
-#btnChatSettings,
-.s-chat-message_menu {
-display: inline-flex !important;
-align-items: center !important;
-justify-content: center !important;
-text-align: center !important;
-transform: none !important;
-padding: 0 !important;
-}
-#btnChatSettings i,
-.s-chat-message_menu i,
-#btnChatSettings .fa,
-.s-chat-message_menu .fa,
-#fraSidebarChat button i,
-#fraSidebarChat button .fa,
-#btnLoadNewMessages i {
-display: none !important;
+font-size: 14px !important;
+background: #230733 !important;
 }
 
 div#lblCharacterCounter {
-color: #ffffff !important; }
-
-html.nolayout {
-background: none !important; }
+color: #e67837 !important; }
  
 .feature {
 background: linear-gradient(180deg, #5c2463 0%, #e4a574 100%) !important;
@@ -513,8 +431,8 @@ background-size: contain !important;
 background-repeat: no-repeat !important;
 position: fixed !important;
 display: block !important;
-width: 250px !important;
-height: 250px !important;
+width: 280px !important;
+height: 230px !important;
 right: 20px !important;
 bottom: 10px !important;
 z-index: 100 !important;
@@ -523,9 +441,9 @@ pointer-events: none !important;
 
 @media only screen and (max-width: 768px) {
 .container.main::after {
-width: 200px !important;
+width: 270px !important;
 height: 200px !important;
-right: 5px !important;
+right: 10px !important;
 bottom: 5px !important;
 }
 }
@@ -572,6 +490,13 @@ color: #af49e7 !important;
 border: none !important;
 border-radius: 10px !important; }
 
+.cave-grid:has(img[src*="banner"]) img,
+img[src*="overviewbanner.png"],
+img[src*="nestingbanner.png"],
+img[src*="unsortedlionsbanner.png"] {
+ height: 60px !important;
+}
+
 a:hover, a:active, 
 .feature:hover, .panel:hover, .cave-grid:hover,
 input:hover, select:hover, textarea:hover {
@@ -584,12 +509,21 @@ img[src*="beetle"]:hover, img[src*="gb.png"]:hover, img[src*="sb.png"]:hover {
 } 
 
 div.cave-grid>img {
-content: url('https://w0.peakpx.com/wallpaper/493/848/HD-wallpaper-orange-background-desert-orange-aesthetic.jpg')!important;
+content: url('https://i.postimg.cc/0Qdg0byM/image-2026-10-12-210438141.png')!important;
 object-fit: cover !important;
 object-position: center 20% !important;
 width: 100% !important;
-height: 120px !important;
+height: 100px !important;
 }
+
+a[href="cave.php?id=539450"] div.cave-grid>img {
+content: url('https://images.unsplash.com/photo-1617147510149-7fbbd5def782?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')!important;
+object-fit: cover !important;
+object-position: center 70% !important;
+width: 100% !important;
+height: 100px !important;
+}
+
 
 .breadcrumb::before {
     content: "CSS by Shadow #591622" !important;
