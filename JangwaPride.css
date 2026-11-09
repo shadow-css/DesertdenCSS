@@ -327,7 +327,7 @@ padding: 0 !important;
 #fraSidebarChat button i,
 #fraSidebarChat button .fa,
 #btnLoadNewMessages i {
-display: none !important;
+display: inline-block !important;
 }
 
 div#lblCharacterCounter {
