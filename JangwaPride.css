@@ -8,13 +8,13 @@ body {font-family: Verdana;}
  
 @media screen and (min-width: 601px) { 
 body {
-background: url('https://w0.peakpx.com/wallpaper/638/914/HD-wallpaper-moon-and-clouds-aesthetic-clouds-cloudy-desert-dreamy-moon-moon-aesthetic-sunset-surreal.jpg') center center fixed;
+background: url('https://images.unsplash.com/photo-1787502815045-13821b914e76?q=80&w=686&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D') center center fixed;
 background-size: 100%;
 color: #b45eff; } }
 
 @media screen and (max-width: 600px){
 body {
-background: url('https://w0.peakpx.com/wallpaper/638/914/HD-wallpaper-moon-and-clouds-aesthetic-clouds-cloudy-desert-dreamy-moon-moon-aesthetic-sunset-surreal.jpg') center center fixed;;
+background: url('https://images.unsplash.com/photo-1787502815045-13821b914e76?q=80&w=686&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D') center center fixed;;
 background-size: cover;
 color: #b45eff; } }
 
@@ -277,17 +277,25 @@ color: #44174a !important;
 border: none !important;
 border-radius: 4px !important;
 }
+
 #fraSidebarChat button,
 #fraSidebarChat .btn,
 #btnChatSettings,
-#btnLoadNewMessages,
-.s-chat-message_menu {
+#btnLoadNewMessages {
 background: transparent !important;
 color: #ffffff !important;
 border: none !important;
 border-radius: 4px !important;
 filter: grayscale() brightness(400%) !important;
 }
+
+.s-chat-message_menu {
+background: transparent !important;
+color: #ffffff !important;
+border: none !important;
+border-radius: 4px !important;
+}
+
 #chatMessageList .s-chat-message:nth-child(odd),
 .s-chat-message:nth-child(odd) {
 background: linear-gradient(180deg, #6c2a75 0%, #f3b483 100%) !important;
@@ -355,6 +363,7 @@ background: linear-gradient(180deg, #41126a 0%, #b45117 100%) !important;
 color: #180424 !important;
 border: none !important;
 }
+
 
 
 
