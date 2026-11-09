@@ -255,45 +255,107 @@ content: url('https://i.postimg.cc/kMk3RV8t/image.png') !important;
 width: 24px !important; }
 
 /* CHAT (This was SO difficult sobs cuz all templates were outdated) */
-div#chatMessageContainer {
-border: 0px ridge;
+#fraSidebarChat {
+background: #44174a !important;
+border: 1px solid #6c2a75 !important;
+border-radius: 3px !important;
+overflow: visible !important;
 }
-.s-chat-message:nth-child(even) {
-background: linear-gradient(180deg, #44174a 0%, #c48656 100%) !important;
-color: #ffffff !important;
-font-size: 14px !important;
+#fraSidebarChat h3,
+#fraSidebarChat h3 a {
+color: #f3b483 !important;
+font-family: Arial, Helvetica, sans-serif !important;
+font-weight: bold !important;
+}
+#fraSidebarChat iframe {
+background: #44174a !important;
 border: none !important;
 }
+#fraSidebarChat select {
+background: #FFF9E6 !important;
+color: #44174a !important;
+border: none !important;
+border-radius: 4px !important;
+}
+#fraSidebarChat button,
+#fraSidebarChat .btn,
+#btnChatSettings,
+#btnLoadNewMessages,
+.s-chat-message_menu {
+background: transparent !important;
+color: #ffffff !important;
+border: none !important;
+border-radius: 4px !important;
+filter: grayscale() brightness(400%) !important;
+}
+#chatMessageList .s-chat-message:nth-child(odd),
 .s-chat-message:nth-child(odd) {
 background: linear-gradient(180deg, #6c2a75 0%, #f3b483 100%) !important;
 color: #ffffff !important;
 font-size: 14px !important;
 border: none !important;
 }
-.s-chat-message__pinned {
-background:linear-gradient(180deg, #41126a 0%, #b45117 100%)!important;
-color: #180424 !important;
+#chatMessageList .s-chat-message:nth-child(even),
+.s-chat-message:nth-child(even) {
+background: linear-gradient(180deg, #44174a 0%, #c48656 100%) !important;
+color: #ffffff !important;
+font-size: 14px !important;
 border: none !important;
 }
+#chatMessageList {
+background: #44174a !important;
+}
+
 .s-chat-message_timestamp {
 color: #f3b483 !important;
 font-size: 12px !important;
 }
-/* channel tabs */
-button#label_currentChannel {	
+
+#btnChatSettings,
+.s-chat-message_menu {
+display: inline-flex !important;
+align-items: center !important;
+justify-content: center !important;
+text-align: center !important;
+transform: none !important;
+padding: 0 !important;
+}
+#btnChatSettings i,
+.s-chat-message_menu i,
+#btnChatSettings .fa,
+.s-chat-message_menu .fa,
+#fraSidebarChat button i,
+#fraSidebarChat button .fa,
+#btnLoadNewMessages i {
+display: none !important;
+}
+
+div#lblCharacterCounter {
+color: #e67837 !important; 
+}
+
+html.nolayout {
+background: none !important; 
+}
+
+button#label_currentChannel
+{
 border: 0px ridge !important;
 color: #FFF9E6 !important;
 font-size: 14px !important;
 background: #230733 !important;
+padding: 5px;
+border-radius: 0px !important;
+box-shadow: 0px 0px 5px 2px #230733 !important;
+text-shadow: 0px 0px 0px #FFF9E6 !important;
 }
-div#lblCharacterCounter {
-color: #e67837 !important; 
+
+.s-chat-message__pinned {
+background: linear-gradient(180deg, #41126a 0%, #b45117 100%) !important;
+color: #180424 !important;
+border: none !important;
 }
-/* chat buttons - transparency added to clear the boxes */
-#btnChatSettings, #btnLoadNewMessages, .s-chat-message_menu {
-background: transparent !important;
-filter: grayscale() brightness(400%) !important;
-}
+
 
 
 
