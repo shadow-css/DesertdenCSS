@@ -256,7 +256,7 @@ width: 24px !important; }
 
 /* CHAT (This was SO difficult sobs cuz all templates were outdated) */
 #fraSidebarChat {
-background: #44174a !important;
+background: transparent !important;
 border: 1px solid #6c2a75 !important;
 border-radius: 3px !important;
 overflow: visible !important;
