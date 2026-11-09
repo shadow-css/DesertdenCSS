@@ -8,13 +8,13 @@ body {font-family: Verdana;}
  
 @media screen and (min-width: 601px) { 
 body {
-background: url('https://images.unsplash.com/photo-1787502815045-13821b914e76?q=80&w=686&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D') center center fixed;
+background: url('https://i.postimg.cc/Jhckd0F5/image.png') center center fixed;
 background-size: 100%;
 color: #b45eff; } }
 
 @media screen and (max-width: 600px){
 body {
-background: url('https://images.unsplash.com/photo-1787502815045-13821b914e76?q=80&w=686&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D') center center fixed;;
+background: url('https://i.postimg.cc/Jhckd0F5/image.png') center center fixed;;
 background-size: cover;
 color: #b45eff; } }
 
